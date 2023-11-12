@@ -11,6 +11,4 @@ mod tests {
 
         assert!(plonk_verifier::verify(&plonk_proof), "PLONK verification failed");
     }
-
-    // Additional tests for more complex and edge cases
 }

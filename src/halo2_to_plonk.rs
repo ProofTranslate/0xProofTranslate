@@ -7,14 +7,12 @@ pub mod halo2_to_plonk {
     // Structs representing intermediate formats may be needed
     struct IntermediateProof {
         // Fields representing the necessary parts of the proof
-        // ...
     }
 
     // Error handling
     #[derive(Debug)]
     pub enum ConversionError {
         // Different types of errors that might occur during conversion
-        // ...
     }
 
     // Main conversion function
@@ -52,20 +50,15 @@ pub mod halo2_to_plonk {
     }
    
     fn convert_pcs_to_kzg(intermediate_proof: &IntermediateProof) -> Result<IntermediateProof, ConversionError> {
-        // Pseudocode for converting PCS
-        // ...
+        // code for converting PCS
     }
 
     fn integrate_bilinear_pairings(intermediate_proof: &IntermediateProof) -> Result<IntermediateProof, ConversionError> {
-        // Pseudocode for integrating bilinear pairings
-        // ...
+        // code for integrating bilinear pairings
     }
 
     fn finalize_plonk_proof(intermediate_proof: &IntermediateProof) -> Result<PlonkProof, ConversionError> {
-        // Pseudocode for finalizing in PLONK format
-        // ...
+        // code for finalizing in PLONK format
     }
 
-    // Additional helper functions as needed
-    // ...
 }

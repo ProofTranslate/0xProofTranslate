@@ -23,9 +23,16 @@ int main() {
 
 // Implementations of the conversion functions
 
-void convertPolynomialCommitments() {
-    // Conversion logic for polynomial commitments
+void convertPolynomialCommitments(FflonkCommitment fflonkCommitments, PlonkCommitmentStructure &plonkCommitments) {
+    // Placeholder for the logic to convert Fflonk polynomial commitments to PLONK format.
+
+    // Use 'fflonkCommitments' to access the commitments from Fflonk
+
+    // Modify 'plonkCommitments' to store the converted commitments in PLONK format
+
+    // Conversion logic goes here
 }
+
 
 void convertChallengeGeneration() {
     // Adaptation logic for challenge generation
