@@ -1,3 +1,6 @@
 [submodule "scroll-prover"]
 	path = scroll-prover
 	url = git@github.com:scroll-tech/scroll-prover.git
+[submodule "halo2"]
+	path = halo2
+	url = git@github.com:scroll-tech/halo2.git
